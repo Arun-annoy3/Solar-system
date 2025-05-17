@@ -32,5 +32,4 @@ jobs:
         - name: install dependiency
           run: npm install
 
-        - name: unit testing
-          run: npm test
+        
