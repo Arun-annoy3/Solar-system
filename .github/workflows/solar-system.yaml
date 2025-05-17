@@ -5,7 +5,7 @@ on:
     push:
         branches:
             - main
-            - 'feature1/*'
+            - 'feature1'
 
 jobs:
     unit-testing:
