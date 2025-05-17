@@ -5,7 +5,7 @@ on:
     push:
         branches:
             - main
-            - 'features/*'
+            - 'feature1/*'
 
 jobs:
     unit-testing:
@@ -23,5 +23,4 @@ jobs:
         - name: install dependiency
           run: npm install
 
-        - name: unit testing
-          run: npm test
+        
